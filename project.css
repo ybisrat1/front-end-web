@@ -1,0 +1,116 @@
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 5%;
+}
+
+/* Header*/
+.logo {
+  width:auto;
+  height: auto;
+  font-size: auto;
+}
+
+.header {
+  border-bottom-style: solid;
+  border-color: #7d97ad;
+  width: auto;
+  height: auto;
+  padding:1px;
+  margin: 50px;
+  height: 50%;
+}
+
+
+.name {
+  color: #000;
+  width: 100%;
+  font-size: 100px;
+  font-family: sans-serif;
+  text-align: right;
+  height: auto;
+  font-weight: bold;
+  font-family: "sans-serif";
+}
+
+.job-title {
+  font-family: "sans-serif";
+  text-align: right;
+  font-size: 75px;
+  height: auto;
+}
+
+/* middles container*/
+.gta-logo {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  max-height:  1000px;
+  display: block;
+  background-color: #000;
+}
+
+/* last container*/
+.samples {
+  font-size: 100;
+  text-align: center;
+
+}
+.samples-title {
+  color: #000;
+  font-family: sans-serif;
+  font-size: 50%;
+  text-decoration: underline;
+  margin-top: 200px;
+  margin-bottom:  200px;
+}
+
+.span::after {
+  content: "";
+  clear: both;
+  display: table;
+
+
+}
+.span {
+  align-items: center;
+}
+
+.images {
+
+  float: left;
+  padding: 0px;
+  width: 33.33%;
+  object-fit: contain;
+}
+
+.img1,.img2,.img3 {
+  width: 100%;
+  height: auto;
+  max-height: 1000px;
+  max-width: 2000px;
+  min-height: 681px;
+}
+
+.caption {
+  font-size: 100%;
+  text-align: center;
+}
+
+/*break point*/
+@media screen and (max-width: 500px) {
+  body{
+    background-color: red;
+  }
+  .images{
+    width: 100%;
+
+  }
+}
+
+</style>
